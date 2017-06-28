@@ -1,0 +1,1 @@
+在device\amlogic\common\cmcc文件夹下新建test文件夹，然后将Android.mk、test_main_m.cpp拷入其中，在test文件夹下直接mm -B即可生成cmcc_player_m播放器

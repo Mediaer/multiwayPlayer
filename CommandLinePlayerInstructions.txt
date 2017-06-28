@@ -1,0 +1,6 @@
+命令行播放器操作说明：
+1、要求底层创建界面：setprop media.cmcc.create-surface 1
+2、在/sdcard目录下新建文件夹demo_video，将需要播放的视频拷到其中（视频文件要求：video是AVC、audio是AAC、只支持ts封装格式视频，播放六路视频时，分辨率不大于640x480）
+3、将视频文件命名为：test*.ts(*从0开始按需要依次取值)
+4、默认播放六路视频，如需修改，可在串口中输入修改命令：setprop media.cmccplayer.ways count（count可以是1到6之间任意整数）
+5、以上设置好后，在命令行中输入cmcc_player_m即可播放
